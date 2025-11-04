@@ -1,0 +1,81 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+q",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "shift+space shift+w",
+        "command": "workbench.panel.chat.view.copilot.focus"
+    },
+    {
+        "key": "shift+cmd+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "cmd+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "cmd+=",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "cmd+-",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "cmd+=",
+        "command": "-fontshortcuts.increaseEditorFontSize",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+-",
+        "command": "-fontshortcuts.decreaseTerminalFontSize",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+=",
+        "command": "-fontshortcuts.increaseTerminalFontSize",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+-",
+        "command": "-fontshortcuts.decreaseEditorFontSize",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+0",
+        "command": "-fontshortcuts.resetEditorFontSize",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+0",
+        "command": "-fontshortcuts.resetTerminalFontSize",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+=",
+        "command": "workbench.action.zoomOut"
+    },
+    {
+        "key": "cmd+numpad_subtract",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "shift+cmd+=",
+        "command": "workbench.action.zoomIn"
+    },
+    {
+        "key": "cmd+numpad_add",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "shift+cmd+0",
+        "command": "workbench.action.terminal.fontZoomIn"
+    },
+    {
+        "key": "shift+cmd+9",
+        "command": "workbench.action.terminal.fontZoomOut"
+    }
+]
